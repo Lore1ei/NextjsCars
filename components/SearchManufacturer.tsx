@@ -22,7 +22,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
             );
 
     return (
-        <div className='search-manufacturer'>
+        <div className='search-manufacturer z-30'>
             <Combobox value={manufacturer} onChange={setManuFacturer}>
                 <div className='relative w-full'>
                     {/* Button for the combobox. Click on the icon to see the complete dropdown */}
